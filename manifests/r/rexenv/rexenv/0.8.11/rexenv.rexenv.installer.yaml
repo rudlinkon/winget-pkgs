@@ -16,7 +16,6 @@ ReleaseDate: 2026-09-30
 AppsAndFeaturesEntries:
 - DisplayName: rexenv
   Publisher: rexenv
-  DisplayVersion: 0.8.11
   ProductCode: rexenv
 Installers:
 - Architecture: x64
