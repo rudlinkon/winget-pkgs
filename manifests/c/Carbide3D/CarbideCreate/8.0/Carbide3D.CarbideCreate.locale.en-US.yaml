@@ -24,8 +24,10 @@ Tags:
 - cad
 - cam
 ReleaseNotes: |-
-  - (FIX) Bumped up the numerical limits in the Linear Array command.
-  - (FIX) Bug in the new time estimator caused the estimations to be too high.
+  - (NEW) Better support for 16-bit heightmaps
+  - (FIX) Cylinders with rounded ends now enforce tangency, rather than radius at a particular point.
+  - (FIX) Long, narrow models (like guitar necks) rendered with large jagged facets in the model view.
+  - (FIX) The library's indexing progress window kept reappearing when closed, could crash, and its progress bar jumped to the end.
 ReleaseNotesUrl: https://carbide3d.com/carbidecreate/download/
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
