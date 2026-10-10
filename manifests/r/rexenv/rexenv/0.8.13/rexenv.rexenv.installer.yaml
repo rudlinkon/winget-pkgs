@@ -1,7 +1,7 @@
 # Created with scripts/winget-manifest.sh (rexenv) — derived from the published release, not typed.
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
 PackageIdentifier: rexenv.rexenv
-PackageVersion: 0.8.11
+PackageVersion: 0.8.13
 InstallerType: nullsoft
 Scope: user
 InstallModes:
@@ -12,14 +12,14 @@ InstallerSwitches:
   Silent: /S
   SilentWithProgress: /S
 UpgradeBehavior: install
-ReleaseDate: 2026-09-30
+ReleaseDate: 2026-10-09
 AppsAndFeaturesEntries:
 - DisplayName: rexenv
   Publisher: rexenv
   ProductCode: rexenv
 Installers:
 - Architecture: x64
-  InstallerUrl: https://github.com/rexenv/rexenv/releases/download/v0.8.11/rexenv_0.8.11_x64-setup.exe
-  InstallerSha256: 98774414E51457117E36F3ED26493A113F340B6E467567BE1698AE75672E544A
+  InstallerUrl: https://github.com/rexenv/rexenv/releases/download/v0.8.13/rexenv_0.8.13_x64-setup.exe
+  InstallerSha256: AF0FF2EB126DD9B3C0095488F216DF19645D9872874499DE63DB60D90968681D
 ManifestType: installer
 ManifestVersion: 1.9.0
